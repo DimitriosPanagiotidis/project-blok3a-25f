@@ -1,9 +1,6 @@
 -- ====================================
 -- DATABASE 5: HOLIDAYS
 -- ====================================
-CREATE DATABASE holidays_db;
-USE holidays_db;
-
 CREATE TABLE destinations (
     id INT PRIMARY KEY AUTO_INCREMENT,
     destination VARCHAR(100) NOT NULL,

@@ -1,9 +1,6 @@
 -- ====================================
 -- DATABASE 4: FITNESS
 -- ====================================
-CREATE DATABASE fitness_db;
-USE fitness_db;
-
 CREATE TABLE workouts (
     id INT PRIMARY KEY AUTO_INCREMENT,
     exercise_name VARCHAR(100) NOT NULL,

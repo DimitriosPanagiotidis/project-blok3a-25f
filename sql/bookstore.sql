@@ -1,9 +1,6 @@
 -- ====================================
 -- DATABASE 6: BOOKSTORE
 -- ====================================
-CREATE DATABASE bookstore_db;
-USE bookstore_db;
-
 CREATE TABLE books (
     id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(150) NOT NULL,

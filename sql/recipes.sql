@@ -1,9 +1,6 @@
 -- ====================================
 -- DATABASE 2: RECIPES
 -- ====================================
-CREATE DATABASE recipes_db;
-USE recipes_db;
-
 CREATE TABLE recipes (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,

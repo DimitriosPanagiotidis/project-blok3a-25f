@@ -1,9 +1,6 @@
 -- ====================================
 -- DATABASE 3: CARS
 -- ====================================
-CREATE DATABASE cars_db;
-USE cars_db;
-
 CREATE TABLE cars (
     id INT PRIMARY KEY AUTO_INCREMENT,
     make VARCHAR(50) NOT NULL,
