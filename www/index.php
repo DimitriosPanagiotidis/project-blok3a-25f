@@ -52,7 +52,7 @@ $destinations = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 <p>Country: <?php echo $destination['country']; ?></p>
                 <p>Continent: <?php echo $destination['continent']; ?></p>
                 <p>Average Cost per Day: $<?php echo number_format($destination['average_cost_per_day'], 2); ?></p>
-                <a href="detail-pagina.php?destinations-id=<?php echo $destination['id']; ?>">
+                <a href="detail-page.php?destinations-id=<?php echo $destination['id']; ?>">
                     <img src="<?php echo $destination['image']; ?> "alt="<?php echo $destination['destination']; ?>">
                 </a>
             </div>
