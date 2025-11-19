@@ -36,6 +36,11 @@ $destinations = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body>
+    <?php  if (isset($_GET['msg']) && $_GET['msg'] == 'registered'): ?>
+        <script>
+            alert("Registration successful!");
+        </script>
+    <?php endif; ?>
     <header>
         <!-- NAVBAR BAR -->
         <?php include 'navbar.php'; ?>
