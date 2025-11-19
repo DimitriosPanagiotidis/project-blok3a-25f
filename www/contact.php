@@ -10,14 +10,13 @@
 <body class="body">
     <header>
         <?php include 'navbar.php'; ?>
-                                
     </header>
 
     <main>        
          <div class="form-wrapper">
             <div>
-                <form action="#" method="post">
-                    <label for="firstName">Name:</label>
+                <form action="" method="post">
+                    <label for="firstName">Name: </label>
                     <input type="text" id="firstName" name="firstName" required>
                     
                     <label for="lastName">Surname:</label>
@@ -30,14 +29,11 @@
                     <input type="email" id="email" name="email" required>
                     
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                    
+                    <textarea id="message" name="message" rows="5" required></textarea>                    
                     <button type="submit">Submit</button>
                 </div>
             </div>
-            </form>
-            
-            
+            </form>        
         </main>
 
     <footer class="footer">
