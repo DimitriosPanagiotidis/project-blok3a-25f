@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="reset.css">
 </head>
 <body class="body">
+    <?php
+    if (isset($_GET['msg']) && $_GET['msg'] == 'success'): ?>
+    <script>
+        alert("Bestemming succesvol toegevoegd!");
+    </script>
+    <?php endif; ?>
     <header>
         <?php include 'navbar.php'; ?>
     </header>
-
     <main>        
          <div class="form-wrapper">
             <div>

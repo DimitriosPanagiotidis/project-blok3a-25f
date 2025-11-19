@@ -131,6 +131,6 @@ require 'database.php';
 $sql = "INSERT INTO destinations (destination, country, continent, best_season, average_cost_per_day, main_attraction, language, currency, beach_destination, image)
                 VALUES ('$destination','$country','$continent','$best_season','$average_cost','$main_attraction','$language','$currency','$beach_destination','$image')";
 if (mysqli_query($conn, $sql)) {
-    header("location: destination.php");
-    exit;
+    header("location: destination.php?msg=success"); 
+exit;
 }

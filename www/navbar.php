@@ -3,12 +3,9 @@ $navigatie = [
     'Home'    => 'index.php',
     'About'   => 'about.php',
     'Contact' => 'contact.php',
-    'Destination' => 'destination.php'
+    'Destination' => 'destination.php',
+    'Register' => 'register.php'
 ];
-
-
-
-
 
 
 ?>
