@@ -4,7 +4,9 @@ $navigatie = [
     'About'   => 'about.php',
     'Contact' => 'contact.php',
     'Destination' => 'destination.php',
-    'Register' => 'register.php'
+    'Login' => 'login.php',
+    'Register' => 'register.php',
+    'Logout' => 'logout.php'
 ];
 
 

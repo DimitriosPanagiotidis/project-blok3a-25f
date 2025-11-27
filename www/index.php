@@ -1,4 +1,5 @@
 <?php
+
 require 'database.php';
 $sql = "SELECT * FROM destinations";
 

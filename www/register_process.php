@@ -55,7 +55,7 @@ if(!empty($_POST['zip_code']) && strlen($_POST['zip_code']) < 6){
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
 $email = $_POST['email'];
-$password = password_hash($_POST['password'], PASSWORD_BCRYPT);
+$password = $_POST['password'];
 $role = $_POST['role_form'];
 $city = $_POST['city'];
 $zip_code = $_POST['zip_code'];
