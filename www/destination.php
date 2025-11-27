@@ -1,3 +1,12 @@
+<?php
+
+
+include 'session_check.php';
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +17,10 @@
     <link rel="stylesheet" href="reset.css">
 </head>
 <body class="body">
-    <?php
+    <?php // Redirect from create_destination to destination.php after the creation is completed.
     if (isset($_GET['msg']) && $_GET['msg'] == 'success'): ?>
     <script>
-        alert("Bestemming succesvol toegevoegd!");
+        alert("Your destination has been successfully added!");
     </script>
     <?php endif; ?>
     <header>
